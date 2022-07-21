@@ -1,0 +1,9 @@
+<% for (let i = 0; i < data.length; i++) { %>
+        <div class="section-Together">
+        <h1 class="titulo-principal"><%= data[i].titulo %> </h1>
+        <p> <%= data[i].descripcion %> </p>
+    </div>
+    <div class="section-Together-img">
+        <img src="/images/<%= data[i].imagen %>" alt="">
+    </div>
+<% } %>
